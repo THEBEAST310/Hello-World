@@ -1,25 +1,26 @@
 //For C language
 #include <stdio.h>
 int main()
-{printf("Hello, World!\n");
-printf("Welcome to C programming.");
-return 0;
+{
+	printf("Hello, World!\n");
+	printf("Welcome to C programming.");
+	return 0;
 }
 
 //For C++ language
 #include<iostream>
-using namespace std;
 int main()
 {
-cout << "Hello World\n";
-return 0;
+	std::cout << "Hello World\n";
+	return 0;
 }
 
 //For python language
 print("Hello, World")
 
 //For java language
-class HelloWorld {
+class HelloWorld 
+{
     public static void main(String[] args) {
         System.out.println("Hello, World!"); 
     }
